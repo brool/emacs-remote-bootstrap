@@ -96,3 +96,4 @@
       (remove 'process-kill-buffer-query-function 
               kill-buffer-query-functions)) 
 
+(load-theme 'zenburn 'no-confirm)
