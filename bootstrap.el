@@ -1,5 +1,8 @@
 ;; (with-temp-buffer (url-insert-file-contents "https://raw.githubusercontent.com/brool/emacs-remote-bootstrap/master/bootstrap.el") (eval-buffer))
 
+(defun load-file-remotely (url)
+  (with-temp-buffer (url-insert-file-contents url) (eval-buffer)))
+
 ;; Bootstrap up the Try package
 
 (defvar try-tmp-dir (make-temp-file "try" t))
@@ -24,4 +27,4 @@
 (try 'counsel)
 (try 'zenburn-theme)
 (try 'ack)
-(try "https://raw.githubusercontent.com/brool/emacs-remote-bootstrap/master/init.el")
+(load-file-remotely "https://raw.githubusercontent.com/brool/emacs-remote-bootstrap/master/init.el")
