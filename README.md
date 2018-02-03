@@ -4,7 +4,7 @@ You're working on a coworker's / friend's computer, and they have only an uninit
 
 Or, worse, they have set up their Emacs and customized it, but they didn't have the good sense to copy your configuration, so everything is strange and insane, with bindings only Cthulhu could love.
 
-You could git clone your Emacs configuration, but that seems kind of weird, and you'd be polluting his package space.
+You could git clone your Emacs configuration, but that seems kind of weird, and you'd be polluting his or her package space.
 
 Fortunately, it's easy to set up a bootstrap configuration that you can bring up anywhere into the current running copy of Emacs, using the very neat [Try package](https://github.com/larstvei/Try) available in Emacs. 
 
