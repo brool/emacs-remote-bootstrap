@@ -2,7 +2,7 @@
 
 You're working on a coworker's / friend's computer, and they have only an uninitialized Emacs...  none of the keys are right.
 
-Or, worse, they have set up their Emacs and customized it, but they didn't have the good sense to copy your configuration, so everything is strange and insane, with bindings only Cthulhu could love.
+Or, worse, they have set up their Emacs and customized it, but they didn't have the good sense to copy your configuration, so everything is strange and insane, with bindings only Cthulhu could love, with a theme that looks like some horrible fruit salad that was made by someone who decided that the number of colors determined the worth of a dish.
 
 You could git clone your Emacs configuration, but that seems kind of weird, and you'd be polluting his or her package space.
 
